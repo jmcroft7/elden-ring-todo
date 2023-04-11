@@ -17,3 +17,7 @@ h1 {
         bottom: 0;
         z-index: -1;
       }
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
