@@ -3,3 +3,7 @@
 h1 {
     font-family: 'Cabin', sans-serif;
 }
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
